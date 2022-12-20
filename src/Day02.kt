@@ -142,7 +142,7 @@ fun main() {
     check(part1(testInput) == 15)
 
     val input = readInput("Day02")
-    check(part2(testInput) == 12)
     part1(input).println()
+    check(part2(testInput) == 12)
     part2(input).println()
 }
